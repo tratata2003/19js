@@ -1,0 +1,63 @@
+.btn {
+    display: inline-block; 
+    background: #8C959D; 
+    color: #fff; 
+    padding: 1rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 3px;
+   }
+
+li{
+    display:inline-block; 
+    background: #77bffd; 
+    color: rgb(29, 13, 13); 
+    padding: 1rem 1.5rem; 
+    text-decoration: none; 
+    border-radius: 3px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+}
+
+#field{
+    width: 400px;
+    height: 300px;
+    border: 10px solid rgb(131, 16, 240);
+    border-radius: 2%;
+    background-color: #5ec55e;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#ball{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    transition: all .5s;
+}
+
+#banner{
+    border: 3px solid rgb(138, 138, 138);
+    border-radius: 3px;
+    background-color: #b8c49b;
+    position: fixed;
+    right: -450px;
+    top: 10px;
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+    transition: all 2s;
+    cursor: pointer;
+}
+
+
+#list li{
+    display:block;
+    width: 100px;
+    margin-bottom: 10px;
+}
